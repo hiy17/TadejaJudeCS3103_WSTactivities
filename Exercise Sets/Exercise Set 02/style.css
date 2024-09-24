@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 body{
@@ -26,20 +27,20 @@ p, h4 {
 .profile-icon {
     width: 25px; 
     height: 25px;
-    display: block;
+    display: flex;
     margin: 0 auto 10px auto; 
 }
 
 .contacts {
     width: 25px; 
     height: 25px;
-    display: block;
+    display: flex;
     margin: 0 auto 10px auto; 
 }
 
 .info {
     width: 25px; 
     height: 25px;
-    display: block;
+    display: flex;
     margin: 0 auto 10px auto; 
 }
