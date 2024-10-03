@@ -1,0 +1,188 @@
+*{
+   font-family: cursive;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    , url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin: 0;
+    height: 100vh;
+    color: rgb(240, 228, 228);
+}
+
+.float-container{
+
+    width: 800px;
+    height: 500px;
+    opacity: 0.8;
+    background: #494949;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.container{
+position: absolute;
+width: 350x;
+height: 152px;
+background: #918080;
+border-radius: 20px;
+top: 20px;
+left: 10%;
+transition: transform .3s;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.container2{
+position: absolute;
+width: 300px;
+height: 280px;
+background-image: url(https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+bottom: 5%;
+left: 10%;
+transition: transform .3s;
+
+}
+
+.container2:hover{
+    transform: scale(1.1);
+}
+
+.container3{
+position: absolute;
+width: 180px;
+height: 152px;
+
+background-image: url(https://images.pexels.com/photos/20892612/pexels-photo-20892612/free-photo-of-a-tabby-cat-with-yellow-eyes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+top: 19%;
+left: 61%;
+transform: translate(-50%, -50%);
+transition: transform .3s;
+}
+
+.container3:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.container4{
+position: absolute;
+width: 180px;
+height: 130px;
+
+background-image: url(https://images.pexels.com/photos/6193389/pexels-photo-6193389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+top: 52%;
+left: 61%;
+transform: translate(-50%, -50%);
+transition: transform .3s;
+}
+
+.container4:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.container5{
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230804153904-01-taylor-swift-eras-tour-gallery-restricted.jpg?q=w_3000,c_fill);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    top: 82%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    transition: transform .3s;
+}
+
+.container5:hover{
+    transform: translate(-50%,-50%) scale(1.1);
+}
+
+.container6{
+    position: absolute;
+    width: 180px;
+    height: 152px;
+    
+    background-image: url(https://images.pexels.com/photos/1022936/pexels-photo-1022936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    top: 19%;
+    right: 3%;
+    transform: translate(0, -50%);
+    transition: transform .3s;
+}
+
+.container6:hover{
+    transform: translate(0, -50%) scale(1.1);
+}
+
+.container7{
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    
+    background-image: url(https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    top: 52%;
+    right: 3%;
+    transform: translate(0, -50%);
+    transition: transform .3s;
+}
+
+.container7:hover{
+    transform: translate(0, -50%) scale(1.1);
+}
+
+.container8{
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    
+    background-image: url(https://images.pexels.com/photos/18754410/pexels-photo-18754410/free-photo-of-airplane-wing-over-city-under-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    top: 82%;
+    right: 3%;
+    transform: translate(0, -50%);
+    transition: transform .3s;
+}
+
+.container8:hover{
+    transform: translate(0, -50%) scale(1.1);
+}
+
